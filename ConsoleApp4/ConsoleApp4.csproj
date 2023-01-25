@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataModel.cs" />
+    <Compile Include="Extentions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ConsoleApp4.exe" />
+    <Content Include="bin\Debug\ConsoleApp4.pdb" />
+    <Content Include="bin\Debug\EPPlus.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\1.xlsx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
